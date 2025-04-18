@@ -24,13 +24,11 @@ The simulation computes bus voltages, power injections, and branch flows based o
 1. Clone or download the repository.
 2. Open MATLAB and set the working directory to the project folder.
 3. Ensure MATPOWER is installed and added to the MATLAB path.
-4. Run the simulation script (e.g., `runpf.m` or `case15_modified.m` depending on your file names).
+4. Run the simulation script (e.g., `runpf.m` depending on your file names).
 
 ## File Structure
 
-- `case15.m` — MATPOWER case file representing the 15-bus network
-- `run_power_simulation.m` — main script to run and analyse the power flow
-- `results/` — folder for output figures or saved results (if included)
+- `case15nbr.m` — MATPOWER case file representing the 15-bus network
 
 ## Author
 
